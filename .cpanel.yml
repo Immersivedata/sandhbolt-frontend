@@ -9,6 +9,7 @@ deployment:
     - /bin/cp sandhbolt.pdf $DEPLOYPATH
     - /bin/cp gallery.html $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
