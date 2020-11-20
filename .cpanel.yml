@@ -10,8 +10,8 @@ deployment:
     - /bin/cp gallery.html $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R photoSwipe $DEPLOYPATH
+    - /bin/cp -R images/ $DEPLOYPATH
+    - /bin/cp -R js/ $DEPLOYPATH
+    - /bin/cp -R css/ $DEPLOYPATH
+    - /bin/cp -R fonts/ $DEPLOYPATH
+    - /bin/cp -R photoSwipe/ $DEPLOYPATH
